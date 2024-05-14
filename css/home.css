@@ -1,0 +1,37 @@
+.container {
+    background-color: #feeece;
+    margin-top: 60px;
+    display: flex;
+    border-radius: 0px 180px 0px 0px;
+}
+
+.home-image img {
+    width: 900px;
+    height: auto;
+    border-radius: 0px 180px 0px 0px;
+}
+
+.container .home-detail {
+    margin-left: 50px;
+    padding: 10px 40px;
+}
+
+.container .home-detail h1, p {
+    font-family: 'BillieEilish';
+}
+
+.home-detail h1 {
+    margin-top: 80px;
+    font-size: 8rem;
+    line-height: 130px;
+}
+
+.home-detail p {
+    font-size: 1.8rem;
+}
+
+.btn-shopNow {
+    padding-top: 30px;
+    text-align: center;
+ }
+

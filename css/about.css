@@ -1,0 +1,78 @@
+.title {
+   padding: 5px 0px;
+}
+
+h1 {
+   font-family: 'BillieEilish';
+   font-weight: 200;
+   font-size: 3rem;
+   letter-spacing: 4px;
+   text-align: center;
+}
+
+
+.image-row {
+    display: flex;
+    padding: 0px 300px;
+    gap: 20px;
+}
+
+.image-row .column-1 img {
+   height: 300px;
+   width: auto;
+   border-radius: 50px;
+}
+
+.image-row .column-2 img {
+    width: 450px;
+    height: 170px;
+    border-radius: 50px;
+ }
+
+ .image-row .box {
+    display: block;
+ }
+
+ .image-row .bottom-img {
+    display: flex;
+    gap: 20px;
+ }
+
+ .image-row .column-3 img {
+    height: 120px;
+    width: 215px;
+    border-radius: 40px;
+ }
+
+ .image-row .column-4 img {
+    height: 300px;
+    width: auto;
+    border-radius: 20%;
+ }
+
+ .image-row .column-5 img {
+    height: 120px;
+    width: 215px;
+    border-radius: 40px;
+ }
+
+.about-detail {
+    text-align: center;
+    margin-top: 20px;
+    height: 230px;
+    background-color: #feeece;
+    border-radius: 100px 100px 0px 0px;
+ }
+
+ .about-detail .btn-shopNow {
+    padding-top: 30px;
+ }
+
+.about-detail p {
+    padding-top: 20px;
+    font-family: 'BillieEilish';
+    font-weight: 800;
+    letter-spacing: 1.3px;
+    font-size: 1.3rem;
+}
+

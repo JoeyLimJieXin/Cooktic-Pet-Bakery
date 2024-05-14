@@ -1,0 +1,98 @@
+.title {
+    padding: 5px 0px;
+}
+
+h1 {
+    font-family: 'BillieEilish';
+    font-weight: 200;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    gap: 100px;
+    padding: 10px 50px;
+    margin-left: 180px;
+}
+
+.box .left {
+    padding: 30px 40px;
+    background-color: var(--btn-bg);
+    border-radius: 38px;
+}
+
+.left .about-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 28px;
+}
+
+.box .right {
+    background-image: 
+    url(/image/contact-bg.png);
+    background-size: 580px 360px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.title {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.title p {
+    font-family: 'BillieEilish';
+    color: var(--light-text);
+    font-size: 2rem;
+}
+
+.icon-list {
+    display: flex;
+    gap: 40px;
+    margin: 0px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-list .column {
+    background-color: var(--deep-text);
+    border-radius: 50%;
+    padding: 9px 11px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-list .column img {
+    width: 25px;
+    height: auto;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.icon-list .column img:hover {
+    scale: 1.2;
+}
+
+.contact-form {
+    padding: 0px 40px;
+}
+
+.inputbox {
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+
+.inputbox input, textarea {
+    font-family: 'BillieEilish';
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.btn-shopNow {
+    margin-top: 30px;
+    text-align: center;
+}
